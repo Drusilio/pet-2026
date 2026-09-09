@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}App{% endblock %}
+
+{% block body %}
+    <main style="font-family: system-ui, sans-serif; max-width: 40rem; margin: 4rem auto; padding: 0 1rem;">
+        <h1>Symfony application</h1>
+        <p>The application is running. Open the admin area to manage users.</p>
+        <p><a href="{{ path('sonata_admin_dashboard') }}">Open Sonata Admin</a></p>
+    </main>
+{% endblock %}
