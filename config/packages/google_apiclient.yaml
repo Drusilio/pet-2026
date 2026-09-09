@@ -1,0 +1,7 @@
+services:
+    Google\Client:
+        class: Google\Client
+        calls:
+            - [setDeveloperKey, ['%env(default::GOOGLE_API_KEY)%']]
+            - [setClientId, ['%env(default::GOOGLE_CLIENT_ID)%']]
+            - [setClientSecret, ['%env(default::GOOGLE_CLIENT_SECRET)%']]

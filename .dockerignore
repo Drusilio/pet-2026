@@ -1,0 +1,10 @@
+.git
+.gitignore
+var
+vendor
+node_modules
+.idea
+.phpunit.cache
+public/bundles
+public/build
+*.md
